@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>ユーザーID:</strong>
+  <%= @user.unique_name %>
+</p>
+
+<p>
+  <strong>メールアドレス:</strong>
+  <%= @user.mail %>
+</p>
+
+<p>
+  <strong>表示名:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>自己紹介:</strong>
+  <%= @user.introduction %>
+</p>
+
+<p>
+  <strong>画像:</strong>
+  <%= image_tag @user.image_url(:thumb) %>
+</p>
+
+<p>
+  <strong>生まれ年:</strong>
+  <%= @user.birth_year %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

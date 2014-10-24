@@ -1,0 +1,41 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :unique_name, 'ユーザーID(英数字のみ)' %><br>
+    <%= f.text_field :unique_name %>
+  </div>
+  <div class="field">
+    <%= f.label :mail, 'メールアドレス（非公開）' %><br>
+    <%= f.text_field :mail %>
+  </div>
+  <div class="field">
+    <%= f.label :name, '表示名（あとから変更できます）' %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :introduction, '自己紹介（あとから変更できます）' %><br>
+    <%= f.text_area :introduction %>
+  </div>
+  <div class="field">
+    <%= f.label :image, '画像（あとから変更できます）' %><br>
+    <%= f.file_field :image %>
+  </div>
+  <div class="field">
+    <%= f.label :birth_year, '生まれ年' %><br>
+    <%= f.number_field :birth_year %>
+  </div>
+  <div class="actions">
+    <%= f.submit '新規作成' %>
+  </div>
+<% end %>
