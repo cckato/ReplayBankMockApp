@@ -32,3 +32,15 @@
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+
+<div class="col-md-8">
+  <h3>投稿動画一覧</h3>
+  <% if @user.movies.any? %>
+  <p>投稿数（<%= @user.movies.count %>）</p>
+  <ol class="movies">
+    <%= render @user_movies %>
+  </ol>
+  <% else %>
+  <p>まだ動画を投稿していません</p>
+  <% end %>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails ReplayBankMockApp: development" uuid="c16dda0f-60b9-4372-803e-3ace8c66e7a2">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ReplayBankMockApp: test" uuid="8f284fb0-6277-4faa-998f-b0c6a66ecfba">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

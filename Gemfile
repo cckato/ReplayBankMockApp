@@ -17,6 +17,7 @@ gem 'capistrano-rails', group: :development
 gem 'faker'
 gem 'mini_magick'
 gem 'carrierwave'
+gem 'compass-rails'
 
 group :development, :test do
   gem 'rspec-rails'

@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
+  has_many :movies, dependent: :destroy
   mount_uploader :image, AvatarUploader
+
   before_save { self.mail = mail.downcase }
   validates :unique_name, presence: true, length: { maximum: 20 }
   validates :name, presence:true

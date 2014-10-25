@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @movie.name %>
+</p>
+
+<p>
+  <strong>Introduction:</strong>
+  <%= @movie.introduction %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= image_tag @movie.body_url(:thumb), width: '800' %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @movie.user.name %>
+</p>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %>

@@ -1,0 +1,19 @@
+// Place all the styles related to the movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "compass";
+
+
+li.item {
+  list-style-type: none;
+  div.thumb-wrap {
+    float: left;
+  }
+  div.info-wrap {
+    float: left;
+    .item-title a {
+      font-size: 18px;
+    }
+  }
+}

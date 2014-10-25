@@ -2,15 +2,18 @@ require 'rails_helper'
 
 describe User do
   before {
-    @user = User.new(unique_name:'Osamushi',
+    @user = User.new(unique_name: 'Osamushi',
                      mail: 'mad.naname@gmail.com',
-                     name:'おさむ')
+                     name: 'おさむし')
   }
   subject { @user }
 
   it { should respond_to(:unique_name) }
   it { should respond_to(:mail) }
   it { should respond_to(:name) }
+
+  it { should respond_to(:movies) }
+
   it { should be_valid }
 
   describe 'ユニーク名について' do
@@ -27,12 +30,12 @@ describe User do
   describe 'メールアドレスについて' do
 
     describe '空だとだめ' do
-      before {@user.mail = " "}
+      before { @user.mail = " " }
       it { should_not be_valid }
     end
     describe '重複を許さない' do
       before do
-        user_with_same_email = User.new(unique_name: 'Osamushi2', mail: @user.mail.upcase, name:'治虫')
+        user_with_same_email = User.new(unique_name: 'Osamushi2', mail: @user.mail.upcase, name: '治虫')
         user_with_same_email.save
       end
       it { should_not be_valid }
@@ -62,4 +65,27 @@ describe User do
     end
   end
 
+  describe '動画のアソシエーション' do
+    before { @user.save }
+    let!(:older_movie) do
+      create(:movie, user: @user, created_at: 1.day.ago)
+    end
+    let!(:newer_movie) do
+      create(:movie, user: @user, created_at: 1.hour.ago)
+    end
+
+    it 'user.moviesで得られる配列は新しい順に並ぶ' do
+      expect(@user.movies.to_a).to eq [newer_movie, older_movie]
+    end
+
+    it 'ユーザーを削除したら投稿動画も一緒に削除されるべき' do
+      movies = @user.movies.to_a
+      @user.destroy
+      expect(movies).not_to be_empty
+      movies.each do |movie|
+        expect(Movie.where(id: movie.id)).to be_empty
+      end
+    end
+
+  end
 end
