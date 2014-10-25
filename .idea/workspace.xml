@@ -2,29 +2,193 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac93a98f-5bab-4bd1-9557-7e3bd3b18b74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/movies/_movie.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/header.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ReplayBankMockApp.iml" afterPath="$PROJECT_DIR$/.idea/ReplayBankMockApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rails_helper.rb" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/1/placeholder1280x720.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/1/thumb_placeholder1280x720.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/10/Internal_20Creative_20Planner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/10/thumb_Internal_20Creative_20Planner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/11/Forward_20Directives_20Facilitator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/11/thumb_Forward_20Directives_20Facilitator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/12/Direct_20Branding_20Architect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/12/thumb_Direct_20Branding_20Architect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/13/Lead_20Implementation_20Specialist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/13/thumb_Lead_20Implementation_20Specialist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/14/Regional_20Identity_20Producer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/14/thumb_Regional_20Identity_20Producer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/15/Dynamic_20Tactics_20Coordinator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/15/thumb_Dynamic_20Tactics_20Coordinator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/16/Investor_20Research_20Facilitator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/16/thumb_Investor_20Research_20Facilitator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/17/District_20Interactions_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/17/thumb_District_20Interactions_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/18/Internal_20Program_20Consultant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/18/thumb_Internal_20Program_20Consultant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/19/Human_20Accountability_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/19/thumb_Human_20Accountability_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/2/Direct_20Web_20Architect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/2/thumb_Direct_20Web_20Architect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/20/Forward_20Assurance_20Assistant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/20/thumb_Forward_20Assurance_20Assistant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/21/Direct_20Program_20Associate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/21/thumb_Direct_20Program_20Associate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/22/Chief_20Accountability_20Architect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/22/thumb_Chief_20Accountability_20Architect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/23/Central_20Security_20Administrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/23/thumb_Central_20Security_20Administrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/24/Forward_20Optimization_20Manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/24/thumb_Forward_20Optimization_20Manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/3/Central_20Applications_20Assistant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/3/thumb_Central_20Applications_20Assistant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/4/Human_20Tactics_20Coordinator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/4/thumb_Human_20Tactics_20Coordinator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/5/National_20Metrics_20Planner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/5/thumb_National_20Metrics_20Planner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/6/Customer_20Directives_20Planner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/6/thumb_Customer_20Directives_20Planner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/7/Dynamic_20Program_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/7/thumb_Dynamic_20Program_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/8/Global_20Applications_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/8/thumb_Global_20Applications_20Director.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/9/Internal_20Integration_20Liason.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/movie/body/9/thumb_Internal_20Integration_20Liason.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207802-45672-5211/International_20Applications_20Orchestrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207802-45672-5211/thumb_International_20Applications_20Orchestrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207809-45672-8785/International_20Optimization_20Analyst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207809-45672-8785/thumb_International_20Optimization_20Analyst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207813-45672-4527/Principal_20Interactions_20Engineer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207813-45672-4527/thumb_Principal_20Interactions_20Engineer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207819-45672-3549/Forward_20Accountability_20Consultant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207819-45672-3549/thumb_Forward_20Accountability_20Consultant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207831-45672-5510/Customer_20Interactions_20Assistant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207831-45672-5510/thumb_Customer_20Interactions_20Assistant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207854-45672-4427/Product_20Configuration_20Technician.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207854-45672-4427/thumb_Product_20Configuration_20Technician.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207870-45672-7750/International_20Applications_20Consultant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/tmp/1414207870-45672-7750/thumb_International_20Applications_20Consultant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/1/carlotta.hahn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/1/osamu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/1/thumb_carlotta.hahn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/1/thumb_osamu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/10/eduardo.mclaughlin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/10/janet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/10/thumb_eduardo.mclaughlin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/10/thumb_janet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/11/ariel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/11/maxwell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/11/thumb_ariel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/11/thumb_maxwell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/12/jacey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/12/mariela.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/12/thumb_jacey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/12/thumb_mariela.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/13/breana_ernser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/13/josiah.yundt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/13/thumb_breana_ernser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/13/thumb_josiah.yundt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/14/emerald.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/14/sallie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/14/thumb_emerald.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/14/thumb_sallie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/15/giovanny_nader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/15/magdalena_borer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/15/thumb_giovanny_nader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/15/thumb_magdalena_borer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/16/charlie.moriette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/16/dusty.keebler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/16/thumb_charlie.moriette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/16/thumb_dusty.keebler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/17/rocio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/17/thumb_rocio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/17/thumb_wendy.kuhlman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/17/wendy.kuhlman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/18/berniece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/18/thelma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/18/thumb_berniece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/18/thumb_thelma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/19/aubrey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/19/santina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/19/thumb_aubrey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/19/thumb_santina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/2/cocoa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/2/joshua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/2/thumb_cocoa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/2/thumb_joshua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/20/gregg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/20/thumb_gregg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/20/thumb_willie_cartwright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/20/willie_cartwright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/21/angelita_goodwin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/21/rick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/21/thumb_angelita_goodwin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/21/thumb_rick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/22/caitlyn.schaden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/22/emie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/22/thumb_caitlyn.schaden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/22/thumb_emie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/23/jordyn_klocko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/23/leanne.larkin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/23/thumb_jordyn_klocko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/23/thumb_leanne.larkin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/24/madge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/24/reba_jakubowski.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/24/thumb_madge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/24/thumb_reba_jakubowski.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/25/alvera_douglas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/25/corene_price.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/25/thumb_alvera_douglas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/25/thumb_corene_price.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/26/alia.klocko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/26/nathan_bins.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/26/thumb_alia.klocko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/26/thumb_nathan_bins.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/27/gabriella.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/27/jane.mccullough.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/27/thumb_gabriella.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/27/thumb_jane.mccullough.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/28/jayde.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/28/llewellyn_daugherty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/28/thumb_jayde.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/28/thumb_llewellyn_daugherty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/29/andy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/29/larue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/29/thumb_andy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/29/thumb_larue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/3/linnea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/3/ozella.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/3/thumb_linnea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/3/thumb_ozella.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/30/merl.larson.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/30/thumb_merl.larson.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/30/thumb_tony.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/30/tony.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/31/charley_ward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/31/thumb_charley_ward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/32/odie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/32/thumb_odie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/4/jeffry_kunze.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/4/myrtis_herzog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/4/thumb_jeffry_kunze.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/4/thumb_myrtis_herzog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/5/berry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/5/beth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/5/thumb_berry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/5/thumb_beth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/6/caie_ullrich.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/6/izaiah_dibbert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/6/thumb_caie_ullrich.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/6/thumb_izaiah_dibbert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/7/emelia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/7/mary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/7/thumb_emelia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/7/thumb_mary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/8/thumb_vernice_wolf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/8/thumb_zena.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/8/vernice_wolf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/8/zena.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/9/berta_crist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/9/garrick_larkin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/9/thumb_berta_crist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/user/image/9/thumb_garrick_larkin.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ReplayBankMockApp.iws" />
@@ -98,6 +262,7 @@
         <option value="$PROJECT_DIR$/app/views/movies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/movies/_movie.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/movies.css.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -199,6 +364,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReplayBankMockApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReplayBankMockApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1019,6 +1198,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29801324" vertical-offset="0" max-vertical-offset="755">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="540">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
