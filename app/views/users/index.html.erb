@@ -6,7 +6,6 @@
       <th>リプレイバンクID</th>
       <th>メール</th>
       <th>名前</th>
-      <th>自己紹介</th>
       <th>画像</th>
       <th>生まれ年</th>
       <th></th>
@@ -19,7 +18,6 @@
         <td><%= user.unique_name %></td>
         <td><%= user.mail %></td>
         <td><%= user.name %></td>
-        <td><%= user.introduction %></td>
         <td><%= image_tag user.image_url(:thumb), width: '50px' %></td>
         <td><%= user.birth_year %></td>
         <td>

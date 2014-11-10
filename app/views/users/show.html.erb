@@ -37,9 +37,9 @@
   <h3>投稿動画一覧</h3>
   <% if @user.movies.any? %>
   <p>投稿数（<%= @user.movies.count %>）</p>
-  <ol class="movies">
+  <ul class="user_movies">
     <%= render @user_movies %>
-  </ol>
+  </ul>
   <% else %>
   <p>まだ動画を投稿していません</p>
   <% end %>

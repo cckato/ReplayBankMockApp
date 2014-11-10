@@ -7,13 +7,24 @@
 
 li.item {
   list-style-type: none;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
   div.thumb-wrap {
     float: left;
+    margin-right: 12px;
   }
   div.info-wrap {
     float: left;
     .item-title a {
       font-size: 18px;
     }
+  }
+  span.timestamp {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    color: #666;
   }
 }
