@@ -41,7 +41,6 @@ namespace :db do
 
 
   task add_movies: :environment do
-    bgarr = ['&bgset=bg1', '%bgset=bg2']
     30.times do |n|
       name = Faker::Name.title
       introduction = Faker::Lorem.sentence
