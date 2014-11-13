@@ -1,0 +1,7 @@
+<li>
+  <div class="commenter_avatar">
+    <%= image_tag comment.user.image_url(:thumb_m), width: '32' %>
+  </div>
+  <div class="commenter_name"><%= comment.user.name %></div>
+  <div class="comment_body"><%= comment.body %></div>
+</li>

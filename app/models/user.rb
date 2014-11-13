@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   has_many :movies, dependent: :destroy
+  has_many :comments, dependent: :destroy
   mount_uploader :image, AvatarUploader
 
   before_save { self.mail = mail.downcase }

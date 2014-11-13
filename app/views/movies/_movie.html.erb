@@ -1,8 +1,8 @@
 <li class="item clearfix">
-  <div class="thumb-wrap"><%= link_to (image_tag movie.body_url(:thumb), width: '160px'), movie  %></div>
+  <div class="thumb-wrap"><%= link_to (image_tag movie.body_url(:thumb_m), width: '160px'), movie  %></div>
   <div class="info-wrap">
     <div class="poster-wrap">
-      <%= link_to (image_tag movie.user.image_url(:thumb), width:'24px'), movie.user %>
+      <%= link_to (image_tag movie.user.image_url(:thumb_m), width:'24px'), movie.user %>
       <%= link_to movie.user.name, movie.user %>
     </div>
     <div class="item-title"><%= link_to (movie.name), movie %></div>

@@ -12,4 +12,23 @@ FactoryGirl.define do
     user
   end
 
+  factory :comment do
+    body 'ほげふがひげ'
+    user
+    movie
+  end
+
+  factory :commenter1 do
+    unique_name 'Commenter1'
+    mail 'commenter1@example.com'
+    name 'ほたるん'
+  end
+
+  factory :commenter2 do
+    unique_name 'Commenter2'
+    mail 'commenter2@example.com'
+    name 'ギルガメッシュ'
+  end
+
+
 end

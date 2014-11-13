@@ -54,4 +54,14 @@ namespace :db do
     end
   end
 
+  task add_comments: :environment do
+    100.times do |n|
+      user = User.order('random()').first
+      movie = Movie.reorder('random()').first
+      body = Faker::Lorem.paragraph(2)
+      Comment.create(user: user, movie: movie, body: body)
+      p n
+    end
+  end
+
 end

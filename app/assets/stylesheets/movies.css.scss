@@ -4,7 +4,7 @@
 
 @import "compass";
 
-
+/* 動画一覧 */
 li.item {
   list-style-type: none;
   margin-bottom: 20px;
@@ -27,4 +27,16 @@ li.item {
     right: 8px;
     color: #666;
   }
+}
+
+/* 個別動画 */
+.poster_info {
+  .poster_thumb {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+.movie_introduction {
+  font-size: 18px;
 }
