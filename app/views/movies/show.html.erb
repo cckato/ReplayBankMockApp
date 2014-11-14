@@ -29,6 +29,25 @@
 <%= link_to 'Back', movies_path %>
 
 <h3>コメント</h3>
-<ul>
+
+<%= form_for(@comment) do |f| %>
+    <p>
+      <%= f.label :body %>
+      <%= f.text_field :body %>
+    </p>
+    <p>
+      <% ids = Hash.new() %>
+      <% @users.each do |user| %>
+        <% ids[user.unique_name] = user.id %>
+      <% end %>
+      <%= select :comment, :user_id, ids %>
+    </p>
+    <%= hidden_field :comment, :movie_id, value: @movie.id %>
+    <p>
+      <%= f.submit '投稿' %>
+    </p>
+<% end %>
+
+<ul class="comment_list col-md-6">
   <%= render @comments %>
 </ul>

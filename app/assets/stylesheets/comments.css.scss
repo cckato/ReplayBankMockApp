@@ -1,0 +1,30 @@
+// Place all the styles related to the comment controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ul.comment_list li.comment_box{
+  margin-bottom: 18px;
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  &:last-child {
+    border-bottom: none;
+  }
+  .commenter_avatar {
+    float: left;
+    img {
+      display: block;
+    }
+  }
+  .commenter_info {
+    float: left;
+    .display_name {
+      margin-right: 6px;
+      font-weight: bold;
+    }
+    .unique_name {
+      color: #984;
+    }
+  }
+}

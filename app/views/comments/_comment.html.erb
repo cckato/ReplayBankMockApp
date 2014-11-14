@@ -1,7 +1,12 @@
-<li>
-  <div class="commenter_avatar">
+<li class="comment_box clearfix">
+  <div class="commenter_avatar col-md-1">
     <%= image_tag comment.user.image_url(:thumb_m), width: '32' %>
   </div>
-  <div class="commenter_name"><%= comment.user.name %></div>
-  <div class="comment_body"><%= comment.body %></div>
+  <div class="commenter_info col-md-11">
+    <div class="commenter_names">
+      <span class="display_name"><%= comment.user.name %></span>
+      <span class="unique_name">@<%= comment.user.unique_name %></span>
+    </div>
+    <div class="comment_body"><%= comment.body %></div>
+  </div>
 </li>

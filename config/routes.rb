@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :movies
   resources :users
+  resources :comments, only: [:create, :destroy]
 
   root 'static_pages#home'
   match '/help', to: 'static_pages#help', via: 'get'
